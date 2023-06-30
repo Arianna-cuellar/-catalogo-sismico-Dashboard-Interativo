@@ -275,7 +275,7 @@ num_puntos = 100
 st.set_page_config(layout="wide")
 
 # Cargar el archivo CSV
-archivo_csv = r'C:\Users\ferna\dashboard\Catalogo1960_2021.csv'
+archivo_csv = 'https://raw.githubusercontent.com/Arianna-cuellar/-catalogo-sismico-Dashboard-Interativo/main/Catalogo1960_2021.csv'
 df = pd.read_csv(archivo_csv, delimiter=';')
 
 # Crear la aplicación Streamlit
